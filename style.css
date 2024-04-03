@@ -1,0 +1,33 @@
+    .img1 {
+    content: url(C:\Users\LENOVO-V15\Desktop\Assesment\image1.jpeg);
+    }
+    .img2 {
+    content: url(C:\Users\LENOVO-V15\Desktop\Assesment\image2.jpeg);
+    }
+    .img3 {
+    content: url(C:\Users\LENOVO-V15\Desktop\Assesment\image3.jpeg);
+    }
+    .img4 {
+   content: url(C:\Users\LENOVO-V15\Desktop\Assesment\image4.jpeg);
+    }
+    .img5 {
+    content: url(C:\Users\LENOVO-V15\Desktop\Assesment\image5.jpeg);
+    }
+    img {
+    margin: 10px;
+    border: 5px solid #555;
+    width: 10%;
+    }
+    .flex {
+    display: flex;
+    justify-content: center;
+    }
+    .selected {
+    border: 5px solid rgb(0, 195, 255);
+    }
+    p {
+    text-align: center;
+    }
+    button {
+    margin: 20px;
+    }

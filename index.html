@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title><h1> <align="centre">< Im not a robot></align></h1></title>
+        </head>
+        <body>
+            <h2>I'm not a robot</h2>
+            
+            <div>
+                <input type="checkbox" id="captcha-checkbox" onchange="displayRandomImage()">
+                <label for="captcha-checkbox">I am not a robot</label>
+            </div>
+            <div>
+                <img id="captcha-image" src="image1.jpeg", alt="Captcha Image" height="150px" width="150px">
+                <img id="captcha-image" src="image2.jpeg", alt="Captcha Image" height="150px" width="150px">
+                <img id="captcha-image" src="image3.jpeg", alt="Captcha Image" height="150px" width="150px">
+                <img id="captcha-image" src="image4.jpeg", alt="Captcha Image" height="150px" width="150px">
+                <img id="captcha-image" src="image5.jpeg", alt="Captcha Image" height="150px" width="150px">
+                <!-- <img id="captcha-image" src="img5.jpeg", alt="Captcha Image"> -->
+            </div>
+            <div>
+                <input type="text" id="captcha-input" placeholder="Enter Captcha Code">
+                <button onclick="validateCaptcha()">Submit</button>
+            </div>
+        </body>
+        </html>
+
+    <script src="./script.js"></script>
+</body>
+</html>
